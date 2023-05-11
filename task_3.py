@@ -1,4 +1,4 @@
-#2
+#3
 casino_blacklist = {"Terry Stewart", "Cynthia Ramirez", "Jordan Gray", "Breanna Sims", "Anita Cook", "Brittany Mason"}
 poker_blacklist = {"Richard Shields", "Breanna Sims", "James Collins", "Anita Cook", "Terry Stewart"}
 alcohol_blacklist = {"Terry Stewart", "Steven Warren", "Matthew Collins", "Richard Pena", "Anita Cook"}
