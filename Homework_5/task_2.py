@@ -1,7 +1,7 @@
 import pickle
 
 # 2
-with open('./Homework_5.1/data.txt', 'r+b') as file:
+with open('./test/data/data.txt', 'r+b') as file:
     byte_text = file.read()
 tuples_list = pickle.loads(byte_text)
 
