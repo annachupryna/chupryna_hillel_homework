@@ -5,4 +5,4 @@
 
 
 def calculate_params(*args: int):
-    return len(args)
+    return sum(args)
