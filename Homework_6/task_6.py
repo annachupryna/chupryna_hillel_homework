@@ -6,5 +6,5 @@ import re
 
 
 def remove_vowels(string: str):
-    updated_string = re.sub(r'[aueioy]+', '', string)
+    updated_string = re.sub(r'[AaUuEeIiOoYy]+', '', string)
     return updated_string
