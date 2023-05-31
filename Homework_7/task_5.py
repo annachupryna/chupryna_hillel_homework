@@ -5,13 +5,7 @@
 
 
 def custom_all(custom_list):
-    define_list = []
-    for el in range(len(custom_list)):
-        if custom_list[el]:
-            define_list.append(True)
-        else:
-            define_list.append(False)
-    if False in define_list:
-        return False
-    else:
-        return True
+    for el in custom_list:
+        if not el:
+            return False
+    return True
