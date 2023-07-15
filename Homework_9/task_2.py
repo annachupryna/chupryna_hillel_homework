@@ -98,8 +98,14 @@ class Worker:
     def do_work(self):
         return f'Worker {self.__name} is working'
 
+    @classmethod
+    def assign_director(cls):
+        director_worker = Worker('Tom Henks', 34, 'director', 4000, 'BMW', 5, )
+        return f'This worker is director: {director_worker.__name}'
+
 
 if __name__ == '__main__':
     worker_1 = Worker("Anna", 25, "Designer", 1500, "Apple", 4)
     print(worker_1.do_work())
-    print(worker_1.position)
+    worker_2 = Worker.assign_director()
+    print(worker_2)
