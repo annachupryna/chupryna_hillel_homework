@@ -93,7 +93,21 @@ class Apple:
         else:
             return f"There is no such department as: {department}"
 
+    @classmethod
+    def show_all_departments(cls):
+        company_new = Apple()
+        return company_new.departments
+
+    @classmethod
+    def add_department(cls, department, number_of_workers):
+        company_2 = Apple()
+        company_2.__departments.update({department: number_of_workers})
+        return company_2.__departments
+
 
 if __name__ == '__main__':
     company = Apple()
     print(company.show_department_employees(",jkk"))
+    print(company.departments)
+    print(company.show_all_departments())
+    print(company.add_department('DevOps', 300))
